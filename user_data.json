@@ -1,0 +1,75 @@
+{
+  "users": {
+    "user_m3lq7o601": {
+      "total_moves": 8,
+      "games_played": 0,
+      "last_played": "2025-05-21T13:45:11.370059"
+    }
+  },
+  "games": [
+    {
+      "game_id": "game_20250521134511",
+      "user_id": "user_m3lq7o601",
+      "move": "d2d4",
+      "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1",
+      "timestamp": "2025-05-21T13:45:11.370059",
+      "difficulty": "easy"
+    },
+    {
+      "game_id": "game_20250521134516",
+      "user_id": "user_m3lq7o601",
+      "move": "e2e4",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq e3 0 2",
+      "timestamp": "2025-05-21T13:45:16.220230",
+      "difficulty": "easy"
+    },
+    {
+      "game_id": "game_20250521134527",
+      "user_id": "user_m3lq7o601",
+      "move": "b1d2",
+      "fen": "rnb1kbnr/pppp1ppp/8/4p1q1/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq - 2 3",
+      "timestamp": "2025-05-21T13:45:27.653181",
+      "difficulty": "easy"
+    },
+    {
+      "game_id": "game_20250521134529",
+      "user_id": "user_m3lq7o601",
+      "move": "d1d2",
+      "fen": "rnb1kbnr/pppp1ppp/8/4p3/3PP3/8/PPPQ1PPP/R1B1KBNR b KQkq - 0 4",
+      "timestamp": "2025-05-21T13:45:29.682732",
+      "difficulty": "easy"
+    },
+    {
+      "game_id": "game_20250521134533",
+      "user_id": "user_m3lq7o601",
+      "move": "e2e4",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "timestamp": "2025-05-21T13:45:33.783861",
+      "difficulty": "hard"
+    },
+    {
+      "game_id": "game_20250521134537",
+      "user_id": "user_m3lq7o601",
+      "move": "d1f3",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5Q2/PPPP1PPP/RNB1KBNR b KQkq - 1 2",
+      "timestamp": "2025-05-21T13:45:37.698136",
+      "difficulty": "hard"
+    },
+    {
+      "game_id": "game_20250521134542",
+      "user_id": "user_m3lq7o601",
+      "move": "f1c4",
+      "fen": "rnb1kbnr/pppp1ppp/8/4p3/2B1P2q/5Q2/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "timestamp": "2025-05-21T13:45:42.462400",
+      "difficulty": "hard"
+    },
+    {
+      "game_id": "game_20250521134546",
+      "user_id": "user_m3lq7o601",
+      "move": "f3f7",
+      "fen": "rnb1kbnr/pppp1Qpp/7q/4p3/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 0 4",
+      "timestamp": "2025-05-21T13:45:46.266141",
+      "difficulty": "hard"
+    }
+  ]
+}
