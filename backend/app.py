@@ -8,13 +8,18 @@ from datetime import datetime
 app = Flask(__name__, 
             static_folder="../frontend/static",
             template_folder="../frontend/templates")
-
 def load_user_data():
     try:
         with open("user_data.json", "r") as f:
-            return json.load(f)
+            data = json.load(f)
+            if "users" not in data:
+                data["users"] = {}
+            if "games" not in data:
+                data["games"] = []
+            return data
     except (FileNotFoundError, json.JSONDecodeError):
         return {"users": {}, "games": []}
+
 
 def save_user_data(data):
     with open("user_data.json", "w") as f:
@@ -85,4 +90,8 @@ if __name__ == "__main__":
     if not os.path.exists("user_data.json"):
         with open("user_data.json", "w") as f:
             json.dump({"users": {}, "games": []}, f)
-    app.run(debug=True, port=5000)
+    if not os.path.exists("mistakes.json"):
+        with open("mistakes.json", "w") as f:
+            f.write("")
+    app.run(debug=True)
+
